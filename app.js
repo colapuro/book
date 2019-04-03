@@ -29,4 +29,4 @@ app.get('/*', function(req, res) {
   res.sendFile(`${__dirname}/build/index.html`)
 });
 
-app.listen(3001);
+app.listen(80);
