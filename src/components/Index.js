@@ -115,6 +115,9 @@ class Index extends React.Component {
           <ul className={`my__book_list${searchState ? ' active' : ''}`}>
             <li><Link to={'/book/59ba0dbb017336e411085a4e'}>元尊</Link></li>
             <li><Link to={'/book/5a5577e59b2420ef3fda94f2'}>落地一把98K</Link></li>
+            <li><Link to={'/book/5a5577e59b2420ef3fda94f2'}>斗罗大陆</Link></li>
+            <li><Link to={'/book/5c13cbacb2ec3aa60411e003'}>重生之修罗归来</Link></li>
+            <li><Link to={'/book/516531015a29ee6a5e0000e1'}>修罗武神</Link></li>
           </ul>
           <div className={`search__list${searchState ? ' active' : ''}`}>
             {
