@@ -26,7 +26,7 @@ class Book extends Component {
 
   componentInit({bookInfo, chapterList}) {
     window.scrollTo(0, 0);
-    document.title = `yi家书屋 — ${bookInfo.title || ''}`;
+    document.title = `免费小说搜索, 全网最全的免费小说搜索, 你要的小说都在这里 — ${bookInfo.title || ''}`;
     let optionList = [];
     let lastChapter = {
       title: '暂无',
